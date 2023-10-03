@@ -9,7 +9,7 @@ interface IUsuario {
   role: 'Admin' | 'Client';
 }
 
-const users:IUsuario[] = [
+export const users:IUsuario[] = [
   {
     id: 1,
     firstName: 'Juan',
