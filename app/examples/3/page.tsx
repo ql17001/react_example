@@ -1,10 +1,13 @@
-'use client'
+'use client';
 import Card, { ICardProperties } from '@/components/Card'
 import React, { ChangeEvent, useState } from 'react'
+
 
 interface ICardsWithId extends ICardProperties {
   id: number;
 }
+
+
 
 const initialState:ICardsWithId[] = [
   {
